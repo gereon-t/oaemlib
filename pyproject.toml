@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "oaemlib"
+version = "0.2.0"
+description = "Compute obstruction adaptive elevation masks from CityGML data"
+authors = ["Gereon Tombrink <tombrink@igg.uni-bonn.de>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+intervaltree = "^3.1.0"
+xmltodict = "^0.13.0"
+pvlib = "^0.10.3"
+pointset = "^0.1.5"
+matplotlib = "^3.8.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
